@@ -1,9 +1,9 @@
-package com.solid.ocp;
+package com.solid.principle.open_closed;
 
-public class DebitProcessor implements PaymentProcessor {
+public class CreditProcessor implements PaymentProcessor {
     @Override
     public void pay(Order order, String securityCode) {
-        System.out.println("Processing debit payment type");
+        System.out.println("Processing credit payment type");
         System.out.println("Verifying security code: " + securityCode);
         order.setStatus("paid");
     }

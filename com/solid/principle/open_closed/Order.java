@@ -1,4 +1,4 @@
-package com.solid.ocp;
+package com.solid.principle.open_closed;
 
 import java.util.ArrayList;
 import java.util.List;

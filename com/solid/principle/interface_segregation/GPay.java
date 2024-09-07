@@ -1,4 +1,4 @@
-package com.solid.isp;
+package com.solid.principle.interface_segregation;
 
 public class GPay implements UpiPayment, CashBackManager{
     @Override

@@ -1,4 +1,4 @@
-package com.solid.srp;
+package com.solid.principle.single_responsibility;
 
 public class PaymentProcessor {
     public void pay(Order order, String paymentType, String securityCode) {

@@ -1,4 +1,4 @@
-package com.solid.lsp;
+package com.solid.principle.liskov_substitution;
 
 public class Car extends MotorVehicle {
     @Override

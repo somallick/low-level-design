@@ -1,4 +1,4 @@
-package com.solid.dsp;
+package com.solid.principle.dependency_inversion;
 
 public class Application {
     private Ilogger ilogger;

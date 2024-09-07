@@ -1,6 +1,6 @@
-package com.solid.isp;
+package com.solid.principle.interface_segregation;
 
-public class PhonePay implements UpiPayment{
+public class Paytm implements UpiPayment{
     @Override
     public void payMoney() {
         System.out.println(this.getClass().getName() + ": Paying money...");

@@ -1,4 +1,4 @@
-package com.solid.lsp;
+package com.solid.principle.liskov_substitution;
 
 public abstract class MotorVehicle implements Vehicle {
     public void startEngine() {

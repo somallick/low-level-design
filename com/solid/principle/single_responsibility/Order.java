@@ -1,4 +1,4 @@
-package com.solid.srp;
+package com.solid.principle.single_responsibility;
 
 import java.util.ArrayList;
 import java.util.List;
