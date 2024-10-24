@@ -1,7 +1,8 @@
 package src.design.pattern.behavioral.observer.example2;
 
 /*
-* Scenario - Every Aircraft subscribe to ATC and then take off. After Landed, it uns
+* Scenario - Every Aircraft subscribe to ATC and then take off.
+* After Landed, it unsubscribed to ATC
 */
 public class ClientMain {
     public static void main(String[] args) {
