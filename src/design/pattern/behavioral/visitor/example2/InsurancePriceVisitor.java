@@ -1,12 +1,12 @@
-package src.design.pattern.behavioral.visitor.example1;
+package src.design.pattern.behavioral.visitor.example2;
 
 public class InsurancePriceVisitor implements ICarVisitor{
     @Override
-    public void visitScorpio(Scorpio scorpio) {
+    public void visit(Scorpio scorpio) {
         System.out.println("I'm visiting insurance Scorpio");
     }
     @Override
-    public void visitAlto(Alto alto) {
+    public void visit(Alto alto) {
         System.out.println("I'm visiting insurance Alto");
     }
 }

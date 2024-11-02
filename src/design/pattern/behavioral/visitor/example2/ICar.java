@@ -1,4 +1,4 @@
-package src.design.pattern.behavioral.visitor.example1;
+package src.design.pattern.behavioral.visitor.example2;
 
 public interface ICar {
 

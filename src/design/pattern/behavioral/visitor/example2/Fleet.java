@@ -1,4 +1,4 @@
-package src.design.pattern.behavioral.visitor.example1;
+package src.design.pattern.behavioral.visitor.example2;
 
 import java.util.ArrayList;
 import java.util.Iterator;
